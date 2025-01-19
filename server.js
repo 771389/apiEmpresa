@@ -53,6 +53,8 @@ fs.readdirSync(routesPath).forEach(file => {
   }
 });
 
+
+
 // Rota para calcular a soma de todos os itens dentro da chave "servidores"
 app.get('/routes/soma-total', (req, res) => {
   let somaTotal = 0;
